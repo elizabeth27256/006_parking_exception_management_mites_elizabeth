@@ -1,0 +1,3 @@
+Lo que más me costó fue organizar todas las excepciones para que cada error devolviera el código HTTP correcto.
+Me tomó un buen rato entender cómo lanzarlas desde el servicio y que el GlobalExceptionHandler las atrapara bien.
+También tuve que probar muchas veces en Postman para asegurarme de que los mensajes fueran los que quería.
